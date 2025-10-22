@@ -12,7 +12,7 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task1.V8.Test
             int startValue = 1;
             int stopValue = 7;
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 0.75;
+            double wait = -302185.684;
             Assert.AreEqual(res, wait);
         }
     }
