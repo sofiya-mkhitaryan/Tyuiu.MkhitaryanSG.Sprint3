@@ -7,9 +7,9 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task5.V30.Lib
         {
             double sumSeries = 0;
             int i, k;
-            for (i = startValue2; i <= stopValue2; i++)
+            for (i = startValue1; i <= stopValue1; i++)
             {
-                for (k = startValue1; k <= stopValue1; k++)
+                for (k = startValue2; k <= stopValue2; k++)
                 {
                     sumSeries = sumSeries + ((Math.Pow(x, 3) - k) + x);
                 }
