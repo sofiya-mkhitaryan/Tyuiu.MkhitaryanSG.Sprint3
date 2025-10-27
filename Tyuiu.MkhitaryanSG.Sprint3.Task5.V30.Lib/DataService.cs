@@ -6,12 +6,12 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task5.V30.Lib
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double sumSeries = 0;
-            int i, j;
-            for (i = startValue1; i <= stopValue1; i++)
+            int i, k;
+            for (i = startValue2; i <= stopValue2; i++)
             {
-                for (j = startValue1; j <= stopValue1; j++)
+                for (k = startValue1; k <= stopValue1; k++)
                 {
-                    sumSeries = sumSeries + ((Math.Pow(x, 3) - i) + x);
+                    sumSeries = sumSeries + ((Math.Pow(x, 3) - k) + x);
                 }
             }
             return Math.Round(sumSeries, 3);

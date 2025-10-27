@@ -10,7 +10,7 @@ class Program
 
         Console.WriteLine("*****************************************************************************");
         Console.WriteLine("* Спринт #3                                                                 *");
-        Console.WriteLine("* Тема: Использование операторов continue и break в циклах                  *");
+        Console.WriteLine("* Тема: Вложенные циклы                                                     *");
         Console.WriteLine("* Задание #5                                                                *");
         Console.WriteLine("* Вариант #30                                                               *");
         Console.WriteLine("* Выполнила: Мхитарян София Геворковна | РППб-25-1                          *");
