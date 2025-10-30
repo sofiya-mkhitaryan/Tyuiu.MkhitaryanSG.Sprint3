@@ -7,7 +7,7 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task6.V27.Lib
         {
             int x = 0;
             int sum = 0;
-            for (x = startValue; x < stopValue; x++)
+            for (x = startValue; x <= stopValue; x++)
             {
                 for (int d = 1; d <= x; d++)
                 {
