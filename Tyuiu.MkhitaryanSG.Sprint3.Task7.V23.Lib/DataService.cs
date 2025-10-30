@@ -12,7 +12,10 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task7.V23.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(4 - 2 * x + (2 + Math.Cos(x) / 2 * x - 2), 2);
+                if ((2 * x - 2) == 0)
+                    y = 0;
+                else
+                    y = Math.Round(4 - 2 * x + (2 + Math.Cos(x)) / (2 * x - 2), 2);
                 valueArray[count++] = y;
             }
             return valueArray;

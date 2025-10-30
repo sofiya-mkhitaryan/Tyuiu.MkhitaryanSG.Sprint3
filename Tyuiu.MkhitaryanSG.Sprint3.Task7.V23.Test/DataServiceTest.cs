@@ -1,4 +1,5 @@
-﻿using Tyuiu.MkhitaryanSG.Sprint3.Task7.V23.Lib;
+﻿//[13.81,11.87,9.87,7.74,5.36,2.5,0.0,0.79,-1.75,-3.78,-5.71]
+using Tyuiu.MkhitaryanSG.Sprint3.Task7.V23.Lib;
 namespace Tyuiu.MkhitaryanSG.Sprint3.Task7.V23.Test
 {
     [TestClass]
@@ -17,17 +18,17 @@ namespace Tyuiu.MkhitaryanSG.Sprint3.Task7.V23.Test
             double[] valueWaitArray;
             valueWaitArray = new double[len];
 
-            valueWaitArray[0] = 13.29;
-            valueWaitArray[1] = 13.31;
-            valueWaitArray[2] = 11.48;
-            valueWaitArray[3] = 8.42;
-            valueWaitArray[4] = 5.73;
-            valueWaitArray[5] = 4.00;
-            valueWaitArray[6] = 2.27;
-            valueWaitArray[7] = -0.42;
-            valueWaitArray[8] = -3.48;
-            valueWaitArray[9] = -5.31;
-            valueWaitArray[10] = -5.29;
+            valueWaitArray[0] = 13.81;
+            valueWaitArray[1] = 11.87;
+            valueWaitArray[2] = 9.87;
+            valueWaitArray[3] = 7.74;
+            valueWaitArray[4] = 5.36;
+            valueWaitArray[5] = 2.5;
+            valueWaitArray[6] = 0.0;
+            valueWaitArray[7] = 0.79;
+            valueWaitArray[8] = -1.75;
+            valueWaitArray[9] = -3.78;
+            valueWaitArray[10] = -5.71;
 
             double[] res;
             res = new double[len];
